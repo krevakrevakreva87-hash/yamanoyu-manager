@@ -1,0 +1,29 @@
+body{font-family:-apple-system,BlinkMacSystemFont,sans-serif;background:#f4f4f4;margin:0}
+header{background:#2e6b3f;color:#fff;text-align:center;padding:16px}
+.card{max-width:600px;margin:20px auto;background:#fff;border-radius:12px;padding:16px}
+.room{display:flex;justify-content:space-between;padding:12px;border-bottom:1px solid #ddd}
+button{display:block;width:100%;margin-top:10px;padding:14px;background:#2e6b3f;color:#fff;border:none;border-radius:10px;font-size:16px}
+.status{font-weight:bold;margin:12px 0}#rooms{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:15px;
+    margin-top:20px;
+}
+
+.room-card{
+    border:1px solid #ddd;
+    border-radius:10px;
+    padding:15px;
+    background:white;
+    box-shadow:0 2px 5px rgba(0,0,0,.1);
+}
+
+.room-card h3{
+    margin:0 0 10px;
+    text-align:center;
+}
+
+.room-card p{
+    text-align:center;
+    font-size:18px;
+}
